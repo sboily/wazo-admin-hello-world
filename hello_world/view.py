@@ -4,14 +4,13 @@
 
 from __future__ import unicode_literals
 
+from flask import render_template
+
 from flask_menu.classy import classy_menu_item
-from wazo_admin_ui.helpers.classful import BaseView
+from flask_classful import FlaskView
 
-class HelloWorldView(BaseView):
-
-    resource = 'hello_world'
-    templates = {'list': 'hello_world.html'}
+class HelloWorldView(FlaskView):
 
     @classy_menu_item('.hello', 'Hello World', order=1, icon="heart")
     def index(self):
-        return super(HelloWorldView, self).index()
+        return render_template('hello_world.html')
