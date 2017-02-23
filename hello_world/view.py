@@ -13,4 +13,4 @@ class HelloWorldView(LoginRequiredView):
 
     @classy_menu_item('.hello', 'Hello World', order=1, icon="heart")
     def index(self):
-        return render_template('hello_world.html')
+        return render_template('hello_world/index.html')
