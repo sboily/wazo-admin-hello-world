@@ -10,12 +10,12 @@ setup(
     name='wazo_admin_ui_hello_world',
     version='0.1',
 
-    description='Wazo Admin Hello World',
+    description='Wazo Admin UI Hello World',
 
     author='Sylvain Boily',
     author_email='sboily@wazo.community',
 
-    url='https://github.com/sboily/wazo-admin-hello-world',
+    url='https://github.com/sboily/wazo-admin-ui-hello-world',
 
     packages=find_packages(),
     include_package_data=True,
