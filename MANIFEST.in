@@ -1,2 +1,2 @@
-recursive-include hello_world/templates *
-recursive-include hello_world/static *
+recursive-include wazo_plugind_admin_ui_hello_world_quintana/templates *
+recursive-include wazo_plugind_admin_ui_hello_world_quintana/static *

@@ -1,0 +1,9 @@
+name: hello-world
+namespace: quintana
+version: 0.0.1
+author: Sylvain Boily
+display_name: Hello World
+tags:
+  - test
+  - hello
+homepage: https://github.com/sboily/wazo-admin-ui-hello-world

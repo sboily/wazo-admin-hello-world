@@ -23,7 +23,7 @@ setup(
 
     entry_points={
         'wazo_admin_ui.plugins': [
-            'hello_world = hello_world.plugin:Plugin',
+            'hello_world = wazo_plugind_admin_ui_hello_world_quintana.plugin:Plugin',
         ]
     }
 )
